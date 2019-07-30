@@ -1,0 +1,29 @@
+{
+  "name": "workshop-line-bot",
+  "version": "1.0.0",
+  "description": "SimSimi Workshop LINE Chatbot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simsimi/workshop-line-bot.git"
+  },
+  "keywords": [
+    "simsimi",
+    "line",
+    "chatbot"
+  ],
+  "author": "SimSimi Inc.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/simsimi/workshop-line-bot/issues"
+  },
+  "homepage": "https://github.com/simsimi/workshop-line-bot",
+  "dependencies": {
+    "@line/bot-sdk": "^6.8.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
