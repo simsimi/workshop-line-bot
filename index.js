@@ -10,7 +10,6 @@ const config = {
   channelAccessToken: fs.readFileSync(`${__dirname}/config/channel_access_token.txt`, 'utf8').trim(),
   channelSecret: fs.readFileSync(`${__dirname}/config/channel_secret.txt`, 'utf8').trim(),
   botName: fs.readFileSync(`${__dirname}/config/bot_name.txt`, 'utf8').trim(),
-  botAlias: fs.readFileSync(`${__dirname}/config/bot_alias.txt`, 'utf8').trim(),
   country: fs.readFileSync(`${__dirname}/config/country.txt`, 'utf8').trim(),
   atextBadProbMax: fs.readFileSync(`${__dirname}/config/atext_bad_prob_max.txt`, 'utf8').trim(),
   atextBadProbMin: fs.readFileSync(`${__dirname}/config/atext_bad_prob_min.txt`, 'utf8').trim(),
@@ -92,8 +91,7 @@ function buildBody(utext) {
     lang: 'ko',
   };
 
-  if (config.botName) body['bot_name'] = config.botName;
-  if (config.botAlias) body['bot_alias'] = config.botAlias.split(',').map(s => s.trim());
+  if (config.botName) body['bot_name'] = config.botName.split(',').map(s => s.trim()).filter((item, pos, self) => self.indexOf(item) === pos);
   if (config.country) body['country'] = config.country.split(',').map(s => s.trim());
   if (config.atextBadProbMax) body['atext_bad_prob_max'] = Number(config.atextBadProbMax);
   if (config.atextBadProbMin) body['atext_bad_prob_min'] = Number(config.atextBadProbMin);
