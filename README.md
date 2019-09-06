@@ -26,14 +26,12 @@
 ![](/img/new_provider_3.png)
 
 * Provider 생성을 완료했다면 이번에는 새 Channel을 만들어야 합니다. Provider를 생성한 직후라면 아래와 같이 3가지의 Channel을 생성할 수 있는 버튼이 있습니다. 이번에 필요한 Channel은 **Messaging API**입니다. **Messaging API**의 **Create Channel**을 눌러 생성 절차를 진행합니다.
-![](https://via.placeholder.com/720x180)
+![](/img/new_channel_1.png)
 
 * **App icon**은 챗봇의 프로필 사진이 됩니다. **App name**은 챗봇의 닉네임이 됩니다. 나머지 항목들은 필수 항목만 적당한 값을 입력하고, **Confirm**을 눌러 다음 단계로 넘어갑니다.
-![](https://via.placeholder.com/720x180)
+![](/img/new_channel_2.png)
 
 * **LINE Official Account Terms of Use**와 **LINE Official API Terms of Use**에 체크하고, **Create**를 눌러 Channel 생성을 완료합니다.
-
-    ![](https://via.placeholder.com/720x180)
 
 ### Channel 설정하기
 
