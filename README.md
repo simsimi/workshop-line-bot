@@ -51,21 +51,21 @@
 ![](/img/channel_access_token_3.png)
 
 * **Use webhooks** - **Edit**을 누르고 **Enabled**로 바꾼 뒤, **Update** 해줍니다.
-![](https://via.placeholder.com/720x180)
+![](/img/use_webhook_1.png)
 
-* **Webhook URL** - 챗봇 코드를 서버에 올린 뒤에 값을 넣어줍니다.
-![](https://via.placeholder.com/720x180)
+* **Webhook URL** - 챗봇 코드를 서버에 올린 뒤에 값을 넣어줍니다. heroku 배포 후 다시 설명합니다. [설명 바로가기](https://github.com/simsimi/workshop-line-bot/blob/master/README.md#Webhook-연결하기)
+![](/img/webhook_url_1.png)
 
 #### Using LINE@ features
 
 * **Auto-reply messages** - **Set message**를 눌러 뜨는 창에서 **상세 설정 > 자동 답변**의 값을 **끔**으로 설정해줍니다.
-![](https://via.placeholder.com/720x180)
-![](https://via.placeholder.com/720x180)
+![](/img/auto_reply_messages_1.png)
+![](/img/auto_reply_messages_2.png)
 
 * **Greeting messages** - **Set message**를 눌러 뜨는 창에서 **기본 설정 > 인사 메시지**의 값을 **켬**으로 설정한 뒤, **인사 메시지 설정**을 눌러 뜨는 화면에서 챗봇과 처음 대화를 시작했을 때 챗봇이 할 인사말을 설정해줍니다.
-![](https://via.placeholder.com/720x180)
-![](https://via.placeholder.com/720x180)
-![](https://via.placeholder.com/720x180)
+![](/img/greeting_messages_1.png)
+![](/img/greeting_messages_2.png)
+![](/img/greeting_messages_3.png)
 
 #### Bot Informations
 
@@ -187,6 +187,12 @@
   $ git commit -am "make it better"
   $ git push heroku master
   ```
+
+&nbsp;
+
+## Webhook 연결하기
+
+
 
 &nbsp;
 
