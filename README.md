@@ -87,57 +87,45 @@
 ## 대화엔진 설정하기
 
 * [workshop-line-bot GitHub 페이지](https://github.com/simsimi/workshop-line-bot)에서 **Clone or download > Download ZIP**을 눌러 챗봇 코드를 다운받습니다.
-![](https://via.placeholder.com/720x180)
+![](/img/git_code_download_1.png)
 
-* 다운받은 챗봇 코드에 필요한 값들을 설정해줍니다. 필수 항목은 반드시 설정해주어야 합니다.
+* 다운받은 챗봇 코드의 압축을 풀고, `config` 폴더 안의 텍스트 파일에 필요한 값들을 설정해줍니다. 필수 항목은 반드시 설정해주어야 합니다.
     * **API Key** - 필수
         * `/config/api_key.txt`에 SimSimi Workshop 프로젝트의 **API 키**를 붙여넣습니다.
-        ![](https://via.placeholder.com/720x180)
     * **Channel Access Token** - 필수
         * `/config/channel_access_token.txt`에 LINE Channel의 **Channel access token (long-lived)** 값을 붙여넣습니다.
-        ![](https://via.placeholder.com/720x180)
     * **Channel Secret** - 필수
         * `/config/channel_secret.txt`에 LINE Channel의 **Channel secret** 값을 붙여넣습니다.
-        ![](https://via.placeholder.com/720x180)
     * **챗봇 이름** - 필수
         * `/config/bot_name.txt`에 챗봇이 불릴 수 있는 모든 이름을 입력해주세요. (ex. 홍길동, 길동 등) 
         * `홍길동,길동`와 같은 방식으로 입력합니다. 
-        ![](https://via.placeholder.com/720x180)
     * **대화세트 생성 국가**
         * 사용할 대화세트의 생성 국가를 지정합니다. 이 값을 지정하면 원하는 지역에서 생성된 대화세트를 필터할 수 있습니다.
         * `/config/country.txt`에 [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) 국가코드를 최대 10개 열거합니다. (ex. `kr,us`)
-        ![](https://via.placeholder.com/720x180)
     * **답변문장 나쁜말 확률**
         * 답변문장의 나쁜말 확률을 제한합니다.
         * `/config/atext_bad_prod_min.txt`와 `/config/atext_bad_prod_max.txt`에 각각 나쁜말 확률의 최솟값과 최댓값을 입력합니다.
         * `0.0`부터 `1.0` 사이의 소수점 첫째 자리 숫자 11개 중 하나로 입력하며, 값이 클수록 나쁜말일 확률이 높습니다.
-        ![](https://via.placeholder.com/720x180)
-        ![](https://via.placeholder.com/720x180)
     * **답변문장 길이**
         * 답변문장의 길이를 제한합니다.
         * `/config/atext_length_min.txt`와 `/config/atext_length_max.txt`에 각각 길이의 최솟값과 최댓값을 입력합니다.
         * 입력 가능한 길이의 범위는 `1~256`입니다.
-        ![](https://via.placeholder.com/720x180)
-        ![](https://via.placeholder.com/720x180)
     * **대화세트 생성 날짜**
         * 대화세트의 생성일 범위를 제한합니다.
         * `/config/regist_date_min.txt`와 `/config/regist_date_max.txt`에 각각 생성일의 최솟값과 최댓값을 입력합니다.
         * 입력 형식은 `yyyy-MM-dd HH:mm:ss`을 사용합니다.
-        ![](https://via.placeholder.com/720x180)
-        ![](https://via.placeholder.com/720x180)
 
 &nbsp;
 
 ## Heroku에 배포하기
 
 * [Heroku](https://www.heroku.com/)에 로그인합니다.
-![](https://via.placeholder.com/720x180)
 
 * 새 App을 만들어야 합니다. **Create new app**을 눌러 생성 절차를 진행합니다.
-![](https://via.placeholder.com/720x180)
+![](/img/heroku_1.png)
 
 * **App name**에 중복되지 않는 적당한 이름을 입력합니다. **Choose a region**은 **United States**로 두면 됩니다. **Create app**을 눌러 생성을 완료합니다.
-![](https://via.placeholder.com/720x180)
+![](/img/heroku_2.png)
 
 * 설정을 끝낸 챗봇 코드를 생성된 App에 배포해야 합니다.
     * [Git](https://git-scm.com/downloads)을 본인의 운영체제에 맞게 설치합니다.
