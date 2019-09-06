@@ -34,6 +34,7 @@
 ![](https://via.placeholder.com/720x180)
 
 * **LINE Official Account Terms of Use**와 **LINE Official API Terms of Use**에 체크하고, **Create**를 눌러 Channel 생성을 완료합니다.
+
 ![](https://via.placeholder.com/720x180)
 
 ### Channel 설정하기
