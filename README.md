@@ -70,7 +70,7 @@
 #### Bot Informations
 
 * **QR code of your bot** - 이 QR code로 만들어진 챗봇을 LINE 친구로 추가할 수 있습니다. 친구로 추가된 챗봇을 테스트해 볼 수 있습니다. 또는 다른 사람들에게 QR code를 공유하여 내가 만든 챗봇을 사용하도록 할 수 있습니다.
-![](https://via.placeholder.com/720x180)
+![](/img/qr_code_of_your_bot_1.png)
 
 &nbsp;
 
