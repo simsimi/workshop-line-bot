@@ -15,7 +15,9 @@
 
 &nbsp;
 
-## LINE Developers 채널 만들기
+## LINE Developers 설정하기
+
+### Channel 생성하기
 
 * [LINE Developers](https://developers.line.biz/)에 로그인합니다.
 ![](https://via.placeholder.com/720x180)
@@ -34,35 +36,41 @@
 * **LINE Official Account Terms of Use**와 **LINE Official API Terms of Use**에 체크하고, **Create**를 눌러 Channel 생성을 완료합니다.
 ![](https://via.placeholder.com/720x180)
 
+### Channel 설정하기
+
 * 생성된 Channel을 클릭하여 Channel 정보 화면으로 진입합니다. **Channel settings**탭에서 챗봇에 필요한 항목들을 확인합니다.
-    * **Basic information**
-        * **Channel secret**: 챗봇 코드에서 사용될 값입니다.
-        ![](https://via.placeholder.com/720x180)
 
-    * **Messaging settings**
-        * **Channel access token (long-lived)**: 챗봇 코드에서 사용될 값입니다.
-        ![](https://via.placeholder.com/720x180)
+#### Basic information
         
-        * **Use webhooks**: **Edit**을 누르고 **Enabled**로 바꾼 뒤, **Update** 해줍니다.
-        ![](https://via.placeholder.com/720x180)
+* **Channel secret** - 챗봇 코드에서 사용될 값입니다.
+![](https://via.placeholder.com/720x180)
+
+#### Messaging settings
         
-        * **Webhook URL**: 챗봇 코드를 서버에 올린 뒤에 값을 넣어줍니다.
-        ![](https://via.placeholder.com/720x180)
+* **Channel access token (long-lived)** - 챗봇 코드에서 사용될 값입니다.
+![](https://via.placeholder.com/720x180)
+
+* **Use webhooks** - **Edit**을 누르고 **Enabled**로 바꾼 뒤, **Update** 해줍니다.
+![](https://via.placeholder.com/720x180)
+
+* **Webhook URL** - 챗봇 코드를 서버에 올린 뒤에 값을 넣어줍니다.
+![](https://via.placeholder.com/720x180)
     
-    * **Using LINE@ features**
-        * **Auto-reply messages**: **Set message**를 눌러 뜨는 창에서 **상세 설정 > 자동 답변**의 값을 **끔**으로 설정해줍니다.
-        ![](https://via.placeholder.com/720x180)
-        ![](https://via.placeholder.com/720x180)
-        
-        * **Greeting messages**: **Set message**를 눌러 뜨는 창에서 **기본 설정 > 인사 메시지**의 값을 **켬**으로 설정한 뒤, **인사 메시지 설정**을 눌러 뜨는 화면에서 챗봇과 처음 대화를 시작했을 때 챗봇이 할 인사말을 설정해줍니다.
-        ![](https://via.placeholder.com/720x180)
-        ![](https://via.placeholder.com/720x180)
-        ![](https://via.placeholder.com/720x180)
-        
-    * **Bot Informations**
-        * **QR code of your bot**: 이 QR code로 만들어진 챗봇을 LINE 친구로 추가할 수 있습니다. 친구로 추가된 챗봇을 테스트해 볼 수 있습니다. 또는 다른 사람들에게 QR code를 공유하여 내가 만든 챗봇을 사용하도록 할 수 있습니다.
-        ![](https://via.placeholder.com/720x180)
+#### Using LINE@ features
 
+* **Auto-reply messages** - **Set message**를 눌러 뜨는 창에서 **상세 설정 > 자동 답변**의 값을 **끔**으로 설정해줍니다.
+![](https://via.placeholder.com/720x180)
+![](https://via.placeholder.com/720x180)
+
+* **Greeting messages** - **Set message**를 눌러 뜨는 창에서 **기본 설정 > 인사 메시지**의 값을 **켬**으로 설정한 뒤, **인사 메시지 설정**을 눌러 뜨는 화면에서 챗봇과 처음 대화를 시작했을 때 챗봇이 할 인사말을 설정해줍니다.
+![](https://via.placeholder.com/720x180)
+![](https://via.placeholder.com/720x180)
+![](https://via.placeholder.com/720x180)
+        
+#### Bot Informations
+        
+* **QR code of your bot** - 이 QR code로 만들어진 챗봇을 LINE 친구로 추가할 수 있습니다. 친구로 추가된 챗봇을 테스트해 볼 수 있습니다. 또는 다른 사람들에게 QR code를 공유하여 내가 만든 챗봇을 사용하도록 할 수 있습니다.
+![](https://via.placeholder.com/720x180)
 
 &nbsp;
 
