@@ -135,13 +135,13 @@
 ### macOS
 
 * **Spotlight**에 **terminal.app**을 검색하여 터미널 앱을 켭니다.
-![](https://via.placeholder.com/720x180)
+![](/img/spolight_terminal_1.png)
 * 터미널 앱에 다음을 입력하여 heroku에 로그인합니다.
   ```bash
   $ heroku login
   ```
 * 터미널에서 챗봇 코드의 폴더 위치로 이동합니다. 터미널에 `cd` 를 입력하고 한 칸 띄운 뒤, 챗봇 코드의 폴더를 드래그 해넣으면 편합니다.
-![](https://via.placeholder.com/720x180)
+![](/img/cd_project_1.png)
 * 다음을 입력하여 git을 초기화합니다. `project-name`에는 본인이 만든 heroku 프로젝트의 이름을 넣습니다.
   ```bash
   $ git init
@@ -157,13 +157,13 @@
 ### Windows
 
 * 실행(윈도우키 + R)에서 **cmd**를 검색하여 명령 프롬프트 창을 켭니다.
-![](https://via.placeholder.com/720x180)
+![](/img/run_cmd_1.png)
 * 명령 프롬프트에 다음을 입력하여 heroku에 로그인합니다.
   ```bash
   $ heroku login
   ```
 * 터미널에서 챗봇 코드의 폴더 위치로 이동합니다. 터미널에 `cd` 를 입력하고 한 칸 띄운 뒤, 챗봇 코드의 폴더를 드래그 해넣으면 편합니다.
-![](https://via.placeholder.com/720x180)
+![](/img/cd_project_2.png)
 * 다음을 입력하여 git을 초기화합니다. `project-name`에는 본인이 만든 heroku 프로젝트의 이름을 넣습니다.
   ```bash
   $ git init
@@ -187,8 +187,6 @@
 ## 대화 테스트하기
 
 * 배포가 완료되면 챗봇이 잘 작동하는지 확인합니다. 챗봇을 친구 추가하여 대화를 시도해봅니다.
-![](https://via.placeholder.com/720x180)
-![](https://via.placeholder.com/720x180)
 * 챗봇 세부 설정(추가 파라미터)은 얼마든지 값을 바꿔서 다시 배포할 수 있습니다. 다시 배포하는 법은 아래와 같습니다.
 
 ### macOS
