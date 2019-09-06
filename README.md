@@ -36,16 +36,19 @@
 ### Channel 설정하기
 
 * 생성된 Channel을 클릭하여 Channel 정보 화면으로 진입합니다. **Channel settings**탭에서 챗봇에 필요한 항목들을 확인합니다.
+![](/img/channel_settings_1.png)
 
 #### Basic information
 
 * **Channel secret** - 챗봇 코드에서 사용될 값입니다.
-![](https://via.placeholder.com/720x180)
+![](/img/channel_secret_1.png)
 
 #### Messaging settings
 
-* **Channel access token (long-lived)** - 챗봇 코드에서 사용될 값입니다.
-![](https://via.placeholder.com/720x180)
+* **Channel access token (long-lived)** - 챗봇 코드에서 사용될 값입니다. **Issue**를 눌러 값을 발급받습니다.
+![](/img/channel_access_token_1.png)
+![](/img/channel_access_token_2.png)
+![](/img/channel_access_token_3.png)
 
 * **Use webhooks** - **Edit**을 누르고 **Enabled**로 바꾼 뒤, **Update** 해줍니다.
 ![](https://via.placeholder.com/720x180)
