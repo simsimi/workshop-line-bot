@@ -180,13 +180,16 @@
 
 ## Webhook 연결하기
 
-
+* LINE Developers의 Channel 설정 설명에서 보았던 **Channel settings > Messaging settings > Webhook URL**에 Webhook URL 값인 `https://app-name.herokuapp.com/callback`을 입력합니다. `app-name`에는 본인이 heroku에서 만든 앱의 이름을 넣어주세요. 
+![](/img/connect_webhook_1.png)
+* URL 확인이 완료되면 **Verify** 버튼을 눌러 **Success**가 잘 뜨는지 확인합니다.
+![](/img/connect_webhook_2.png)
 
 &nbsp;
 
 ## 대화 테스트하기
 
-* 배포가 완료되면 챗봇이 잘 작동하는지 확인합니다. 챗봇을 친구 추가하여 대화를 시도해봅니다.
+* 배포와 Webhook 연결이 완료되면 챗봇이 잘 작동하는지 확인합니다. 챗봇을 친구 추가하여 대화를 시도해봅니다.
 * 챗봇 세부 설정(추가 파라미터)은 얼마든지 값을 바꿔서 다시 배포할 수 있습니다. 다시 배포하는 법은 아래와 같습니다.
 
 ### macOS
