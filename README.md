@@ -76,11 +76,11 @@
 
 ## SimSimi Workshop 프로젝트 API Key 가져오기
 
-* [SimSimi Workshop](https://workshop.simsimi.com)에 로그인하고 필수정보를 입력한 다음, [대시보드 페이지](https://workshop.simsimi.com/dashboard)로 이동합니다.
-![](https://via.placeholder.com/720x180)
+* [SimSimi Workshop](https://workshop.simsimi.com)에 로그인하고, [대시보드 페이지](https://workshop.simsimi.com/dashboard)로 이동합니다.
+![](/img/go_to_dashboard_1.png)
 
 * 데모 프로젝트가 기본으로 생성되어 있는 것을 확인할 수 있습니다. **API 키**가 챗봇 코드에서 사용될 값이므로 복사해둡니다.
-![](https://via.placeholder.com/720x180)
+![](/img/demo_project_api_key_1.png)
 
 &nbsp;
 
