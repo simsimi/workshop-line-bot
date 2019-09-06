@@ -12,7 +12,6 @@
 - [LINE Developers](https://developers.line.biz/) - 실제 챗봇을 생성하는데 필요합니다.
 - [Heroku](https://www.heroku.com/) - 챗봇 대화엔진이 올라갈 서버를 생성하는데 필요합니다.
 
-
 &nbsp;
 
 ## LINE Developers 설정하기
@@ -42,12 +41,12 @@
 * 생성된 Channel을 클릭하여 Channel 정보 화면으로 진입합니다. **Channel settings**탭에서 챗봇에 필요한 항목들을 확인합니다.
 
 #### Basic information
-        
+
 * **Channel secret** - 챗봇 코드에서 사용될 값입니다.
 ![](https://via.placeholder.com/720x180)
 
 #### Messaging settings
-        
+
 * **Channel access token (long-lived)** - 챗봇 코드에서 사용될 값입니다.
 ![](https://via.placeholder.com/720x180)
 
@@ -56,7 +55,7 @@
 
 * **Webhook URL** - 챗봇 코드를 서버에 올린 뒤에 값을 넣어줍니다.
 ![](https://via.placeholder.com/720x180)
-    
+
 #### Using LINE@ features
 
 * **Auto-reply messages** - **Set message**를 눌러 뜨는 창에서 **상세 설정 > 자동 답변**의 값을 **끔**으로 설정해줍니다.
@@ -67,9 +66,9 @@
 ![](https://via.placeholder.com/720x180)
 ![](https://via.placeholder.com/720x180)
 ![](https://via.placeholder.com/720x180)
-        
+
 #### Bot Informations
-        
+
 * **QR code of your bot** - 이 QR code로 만들어진 챗봇을 LINE 친구로 추가할 수 있습니다. 친구로 추가된 챗봇을 테스트해 볼 수 있습니다. 또는 다른 사람들에게 QR code를 공유하여 내가 만든 챗봇을 사용하도록 할 수 있습니다.
 ![](https://via.placeholder.com/720x180)
 
@@ -146,7 +145,7 @@
     * 설치가 완료되면 본인의 운영체제에 맞게 아래 과정을 따릅니다.
 
 ### macOS
-            
+
 * **Spotlight**에 **terminal.app**을 검색하여 터미널 앱을 켭니다.
 ![](https://via.placeholder.com/720x180)
 * 터미널 앱에 다음을 입력하여 heroku에 로그인합니다.
@@ -168,7 +167,7 @@
   ```
 
 ### Windows
-            
+
 * 실행(윈도우키 + R)에서 **cmd**를 검색하여 명령 프롬프트 창을 켭니다.
 ![](https://via.placeholder.com/720x180)
 * 명령 프롬프트에 다음을 입력하여 heroku에 로그인합니다.
