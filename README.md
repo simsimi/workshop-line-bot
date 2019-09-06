@@ -19,12 +19,11 @@
 ### Channel 생성하기
 
 * [LINE Developers](https://developers.line.biz/)에 로그인합니다.
-![](https://via.placeholder.com/720x180)
 
 * 새 Provider를 만들어야 합니다. **Create New Provider**를 눌러 적당한 이름을 입력하고 **Confirm**과 **Create**를 차례로 눌러 Provider를 생성합니다.
-![](https://via.placeholder.com/720x180)
-![](https://via.placeholder.com/720x180)
-![](https://via.placeholder.com/720x180)
+![](/img/new_provider_1.png)
+![](/img/new_provider_2.png)
+![](/img/new_provider_3.png)
 
 * Provider 생성을 완료했다면 이번에는 새 Channel을 만들어야 합니다. Provider를 생성한 직후라면 아래와 같이 3가지의 Channel을 생성할 수 있는 버튼이 있습니다. 이번에 필요한 Channel은 **Messaging API**입니다. **Messaging API**의 **Create Channel**을 눌러 생성 절차를 진행합니다.
 ![](https://via.placeholder.com/720x180)
