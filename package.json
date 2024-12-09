@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/simsimi/workshop-line-bot",
   "dependencies": {
-    "@line/bot-sdk": "^6.8.1",
+    "@line/bot-sdk": "^9.5.0",
     "express": "^4.17.1",
     "request": "^2.88.0"
   }
